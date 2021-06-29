@@ -83,6 +83,3 @@
 
 # Touch
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_8937 u:object_r:hal_lineage_touch_default_exec:s0
-
-# FPS Info
-/sys/devices/virtual/graphics/fb0/measured_fps           u:object_r:sysfs_fps:s0
